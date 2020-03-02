@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <!-- <script language="javascript" src="libraries/p5.dom.js"></script> -->
+    <script src="sketch.js"></script>
+    <title>Pizza Site</title>
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+    <div class="navigation-container"></div>
+    <div class="navigation-content"></div>
+    <!--logo-->
+    <div class="logo">
+    <img src="images/logo.png"/>
+    </div>
+    <!--menu-->
+    <div class="menu">
+    <ul>
+        <li><a href="#">MENU</a></li>
+        <li><a href="#">BEST DEALS</a></li>
+        <li><a href="#">RATE PIZZA</a></li>
+    </ul>
+    </div>
+      <!--cart-->
+     <div class="cart">
+    <img src="images/cart.png"/>
+    <a href="#">Cart</a>
+    </div>
+    <!--navigation-end-->
+    <div class="content-container"></div>
+    <!--whats new-->
+    <div class="whats-new"></div>
+    <img src="images/WHATS NEW.png">
+    <!--content-->
+    <div class="content">
+        <!--row1-->
+        <div class="first-row">
+        <div class="new">
+            <p>Margherita</p>
+            <p>Made with tomatoes and mozzarella cheese.</p>
+            <button>RATE PIZZA</button>
+        </div>
+        <!--tools-->
+        <div class="tools">
+        <div class="inputs">
+<p>
+    pizzaTypes:<input id="pizzaTypes">
+</br>
+    rating: <input id="rating">
+</p>
+<button id="submit">submit</button>
+        </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
